@@ -8,12 +8,12 @@
 
 2. add folder dist and src
 3. edit file tsconfig.json :
-   "target": "es5" to "es6"
-   // "outDir": "./" to "outDir": "./dist",
-   // "rootDir": "./" to "rootDir": "./src",
-   // "strictPropertyInitialization": true to "strictPropertyInitialization": true
-   // "experimentalDecorators": true to "experimentalDecorators": true
-   //"emitDecoratorMetadata": true to "emitDecoratorMetadata": true,
+   - "target": "es5" to "es6"
+   - // "outDir": "./" to "outDir": "./dist",
+   - // "rootDir": "./" to "rootDir": "./src",
+   - // "strictPropertyInitialization": true to "strictPropertyInitialization": true
+   - // "experimentalDecorators": true to "experimentalDecorators": true
+   - //"emitDecoratorMetadata": true to "emitDecoratorMetadata": true,
 4. edit package.json
    add :
    "scripts": {
